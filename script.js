@@ -50,3 +50,20 @@
 //// this returns whatever is present in the p tag
 //
 ////=============================================================================================================
+
+//// Attributes
+//// we use the getAttribute() and setAttribute() to read and write attributes like src and href
+//
+//// we will work on the a tag present in the index.html
+//
+//// first we need to select the a tag
+//var a = document.querySelector("a");
+//
+//// we need to get the attribute of the a tag
+//a.getAttribute("href"); // this gives us the web address that we have specified
+//
+//// change the href attribute
+//a.setAttribute("href","http://www.ashokthella.me");
+//
+////=============================================================================================================
+// similarly for the image tag also we need to select the img and change the src
