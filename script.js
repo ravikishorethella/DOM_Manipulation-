@@ -65,5 +65,11 @@
 //// change the href attribute
 //a.setAttribute("href","http://www.ashokthella.me");
 //
+
+
+//// similarly for the image tag also we need to select the img and change the src
+//// first select the img tag
+//var img = document.querySelector("img");
+//img.setAttribute("src","img src that you want to change");
+
 ////=============================================================================================================
-// similarly for the image tag also we need to select the img and change the src
