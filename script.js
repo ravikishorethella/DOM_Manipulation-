@@ -39,3 +39,14 @@
 //
 ////============================================================================================================
 
+//// innerHTML
+//// similar to textContent, except it returns a string of all the HTML contained in a given element
+//
+////lets work on the p tag
+//
+//var tag = document.querySelector("p");
+//
+//tag.innerHTML
+//// this returns whatever is present in the p tag
+//
+////=============================================================================================================
