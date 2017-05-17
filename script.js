@@ -73,3 +73,44 @@
 //img.setAttribute("src","img src that you want to change");
 
 ////=============================================================================================================
+
+////                     DOM events
+//
+//// we use some events to make the site interactive
+//
+//// let us add a event for the h1 tag. When the user clicks on the h1 text a small alert message will be pop up and we can also change the background color of the h1. 
+//
+//// we need to select the tag on ehich we are planning to make changes
+//var h1 = document.querySelector("h1");
+//
+//// add a listener event
+//h1.addEventListener("click",function(){
+//   alert("you clicked the h1");
+//    h1.style.background = "orange";
+//});
+
+////=============================================================================================================
+
+//// we can also add a listener to ul 
+//
+//document.querySelector("ul").addEventListener("click",function(){
+//   console.log("you clicked the ul");
+//    //so if there are 4 li elemets then irrespective of the li you click this event will be called  
+//});
+
+////=============================================================================================================
+
+//// we can also select the only li elements
+//
+//var lis = document.querySelectorAll("li");
+//
+//// for every li we need to change the different styles
+////iterate 
+//
+//for(var i=0;i<lis.length;i++){
+//    lis[i].addEventListener("click",function(){
+//        this.style.color = "red";
+//    });
+//}
+
+////=============================================================================================================
