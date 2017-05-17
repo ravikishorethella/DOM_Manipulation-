@@ -114,3 +114,40 @@
 //}
 
 ////=============================================================================================================
+
+////            color changer
+//
+//// now if a user clicks on a button then he should see the background color changing
+//
+////forst select the button tag
+//var button = document.querySelector("button");
+//var isBlue = false;
+//
+//// add the event listener
+//button.addEventListener("click",function(){
+//    
+//    // if white 
+//       //make it blue
+//    //else 
+//       //make it white
+//    if(isBlue){
+//      document.body.style.background = "blue";  
+//        isBlue = false;
+//    } else{
+//        document.body.style.background = "white";
+//        isBlue = true;
+//    }
+    
+//});
+
+
+//or 
+
+//var button = document.querySelector("button");
+//
+//// add the event listener
+//button.addEventListener("click",function(){
+//        document.body.classList.toggle("blue");
+//});
+
+
