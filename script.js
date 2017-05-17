@@ -21,3 +21,21 @@
 //p.classList.toggle("big");
 
 ////=======================================================================================================
+//
+//// textContent 
+//// returns a string of all the text contained in a given element
+//
+////lets work on the p tag
+//
+//var tag = document.querySelector("p");
+//
+////retrieving the textContent
+//tag.textContent // we have a strong tag in the p tag but this will just return the whole text as a single string 
+//
+////alter the textContent
+//tag.textContent = "good !!!"; // the whole paragraph will change to good !!!
+//// this helps us to change the text of the paragraph
+//
+//
+////============================================================================================================
+
