@@ -151,3 +151,33 @@
 //});
 
 
+////================================================================================================================
+
+// working on the ul tag li elements
+// if the user wants to see the color changing on hovering the li elements
+
+//select the li. here all the li's will be selected 
+var lis = document.querySelectorAll("li");
+
+// add the event listener. and also iterate the loop through the var lis
+for (var i=0; i<lis.length;i++){
+    
+    // when the li elements are hovered
+    lis[i].addEventListener("mouseover",function(){
+        // the commented code will work
+         this.style.color = "red";
+        //this.classList.add("selected");
+    });
+    
+    // when the li elements are not hovered
+    lis[i].addEventListener("mouseout",function(){         
+        this.style.color = "black";
+    });
+    
+    //when user clicks on the todo list then it should show the striking on the list element
+    lis[i].addEventListener("click",function(){
+        // the commented code will work
+        this.style.textDecoration = "line-through";
+        //this.classList.toggle("done");
+    });
+}
